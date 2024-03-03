@@ -49,3 +49,27 @@
     transition: 0.4s;
 }
 
+@media only screen and (max-width: 2560px) {
+
+	.main_container {
+     zoom: 130%;
+    }
+}
+@media only screen and (max-width: 1920px) {
+
+	.main_container {
+     zoom: 100%;
+    }
+}
+@media only screen and (max-width: 1600px) {
+
+	.main_container {
+     zoom: 80%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .main_container {
+     zoom: 60%;
+    }
+}
+
